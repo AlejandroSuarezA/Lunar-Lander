@@ -19,6 +19,12 @@ body {
   top: 5%;
   left: 2%;
   width: 200px;
+  background: green;
+}
+
+ul li {
+  background-color: #7FFF00;
+  margin: 2px;
 }
 
 .datoNave{
