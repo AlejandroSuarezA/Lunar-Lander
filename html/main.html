@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Lunar Lander</title>
     <link rel="stylesheet" href="../css/desktop.css">
+     <script src="../js/js.js"></script>
 </head>
 
 
@@ -14,14 +15,16 @@
 
 
   <div id="nave">
-    <img id="cohete" src="../img/Nave_Pequeña-min.png" alt="img nave"/>
+    <img id="cohete" src="../img/nave.png" alt="img nave"/>
   </div>
 
 
   <div id="estadoDeLaNave">
-    <div class="datoNave">Speed</div>
-    <div class="datoNave">Fuel</div>
-    <div class="datoNave">Altitude</div>
+    <ul>
+      <li>Fuel <span id="fuel">100</span></li>
+      <li>Speed <span id="speed">100</span></li>
+      <li>Altitude <span id="altitude">70</span></li>
+    </ul>
   </div>
 
 
