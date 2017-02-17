@@ -47,9 +47,9 @@ function stop(){
 
 function moverNave(){
 	v +=a*dt;
-	document.getElementById("velocidad").innerHTML=v;
+	document.getElementById("speed").innerHTML=v;
 	y +=v*dt;
-	document.getElementById("altura").innerHTML=y;
+	document.getElementById("altitude").innerHTML=y;
 
 	//mover hasta que top sea un 70% de la pantalla
 	if (y<70){
